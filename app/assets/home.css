@@ -1,0 +1,21 @@
+/*
+Errno::ENOENT: No such file or directory - app/assets/home.scss
+
+Backtrace:
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/lib/sass/plugin/compiler.rb:339:in `read'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/lib/sass/plugin/compiler.rb:299:in `block in watch'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+/Users/cameronstrandberg/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.2.4/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory - app/assets/home.scss"; }
