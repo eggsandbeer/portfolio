@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 import './App.css';
 import './Cubes.css';
+import MainLineImage from './images/mainline.png';
+import DataContainer from './components/DataContainer'
 
 class App extends Component {
   render() {
@@ -17,6 +21,12 @@ class App extends Component {
               <div className="face6"></div>
             </div>
           </div>
+          <h1>Cameron Strandberg</h1>
+          <p id="IntroText">
+            Hi! I'm a front-end focused web engineer. I love javascript, css, typography, really good coffee, newspapers, the NBA, snowboards and working my butt off.
+          </p>
+          <img id="MainLine" src={MainLineImage} alt="main-line" />
+          <DataContainer />
         </div>
       </div>
     );

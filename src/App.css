@@ -3,6 +3,31 @@ body {
   color: #dcdede;
   background: url('./images/main-bg.jpg') repeat;
   font-family: "adobe-garamond-pro", Garamond, serif;
+  font-size: 12px;
+}
+h1, h3 {
+  font-family: "league-gothic", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fafafa;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 6em;
+  line-height: 1em;
+  margin: 0 0 4px 0;
+}
+h3 {
+  font-size: 4em;
+}
+#IntroText {
+  text-align: center;
+  color: #f47040;
+  line-height: 1em;
+  font-size: 1.4em;
+  font-weight: 200;
+  font-style: italic;
 }
 .TopLevelContainer {
   top: 0;
@@ -13,8 +38,19 @@ body {
   position: absolute;
   margin: 10px;
 }
-
 .ContentContainer {
   margin: 15px;
   border: 1px solid white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+#MainLine {
+  height: 3px;
+  width: 98%;
+  border: 0;
+  margin: 0 auto;
+  display: block;
 }
