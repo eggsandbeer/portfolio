@@ -1,0 +1,20 @@
+body {
+  background-color: #ffffff;
+  color: #dcdede;
+  background: url('./images/main-bg.jpg') repeat;
+  font-family: "adobe-garamond-pro", Garamond, serif;
+}
+.TopLevelContainer {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #230705;
+  position: absolute;
+  margin: 10px;
+}
+
+.ContentContainer {
+  margin: 15px;
+  border: 1px solid white;
+}
