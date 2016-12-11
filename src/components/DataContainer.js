@@ -25,7 +25,9 @@ class DataContainer extends Component {
             handleActiveClick={this.handleActiveClick.bind(this)}
             dataset={this.state.dataset}
           />
-          <MainArea set={this.state.activeSet} />
+          <MainArea
+            set={this.state.activeSet}
+          />
         </div>
       </div>
     )

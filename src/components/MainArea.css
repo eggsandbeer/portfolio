@@ -1,3 +1,36 @@
 .MainArea img {
   width: 100%;
 }
+.MainArea p {
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+}
+.MainArea a {
+  color: #fff
+}
+.MainArea a:hover {
+  color: #f47040;
+}
+.MainArea hr {
+  margin: 0 0 10px 0;
+}
+.MainArea img {
+  padding: 5px;
+  border: 1px solid #fff;
+  margin: 10px 0;
+}
+.switch-enter {
+  opacity: 0.01;
+  transition-delay: 250ms;
+}
+.switch-enter.switch-enter-active {
+  opacity: 1.0;
+  transition: opacity 250ms ease-in;
+}
+.switch-leave {
+  opacity: 1.0;
+}
+.switch-leave.switch-leave-active {
+  opacity: 0;
+  transition: opacity 250ms ease-out;
+}
