@@ -20,8 +20,16 @@ class SideBar extends Component {
         <h3>Portfolio</h3>
         <ul id="SideBar">
         {this.props.dataset.map((set, i) =>
-          <li className={this.state.activeKey === i ? 'ActiveSideBarItem' : ''} onClick={() => this.handleSetActive(i)} key={i}>
-            {set.title}
+          <li
+            className={this.state.activeKey === i ? 'ActiveSideBarItem' : ''}
+            onClick={() => this.handleSetActive(i)} key={i}>
+            <p>
+              <strong>{set.title}</strong>
+              <br />
+              <italic>{set.startdate}</italic>
+            </p>
+            <img className="color" src={process.env.PUBLIC_URL+'/images/work/'+set.id+'-menu-c.png'} role="presentation" />
+            <img className="bw" src={process.env.PUBLIC_URL+'/images/work/'+set.id+'-menu-bg.png'} role="presentation" />
           </li>
         )}
         </ul>

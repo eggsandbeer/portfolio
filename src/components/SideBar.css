@@ -1,8 +1,42 @@
 #SideBar {
-  margin: 0;
   padding: 0;
   list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+  border-top: 1px solid white;
 }
-.ActiveSideBarItem {
-  color: red;
+#SideBar li {
+  height: 61px;
+  display: block;
+  position: relative;
+  list-style: none;
+  padding-left: 5px;
+  border-bottom: 1px solid white;
+  vertical-align: middle;
+  cursor: pointer;
+  z-index: 100;
+  padding-top: 5px;
+}
+#SideBar li:hover img {
+  right: 0;
+  transition: right 0.2s;
+}
+#SideBar li img {
+  position: absolute;
+  right: -60px;
+  top: 0;
+  z-index: 99;
+  pointer-events: none;
+  transition: right 0.2s;
+}
+#SideBar .ActiveSideBarItem {
+  border-left: 4px solid #c83e2c;
+}
+#SideBar .ActiveSideBarItem img {
+  right: 0;
+}
+#SideBar .ActiveSideBarItem img.bw {
+  opacity: 0;
+  transition: opacity 0.2s;
 }
