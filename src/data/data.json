@@ -1,4 +1,113 @@
 [
+  {
+     "id":12,
+     "title":"Timeline",
+     "url":"https://m-staging.timeline.com/",
+     "urltitle":"http://www.timeline.com/ (deprecated)",
+     "content":"Although now replaced with a Medium site, I did a significant amount of work on features for the old timeline.com. Timeline.com was an express/jade app with jQuery plugin based javascript and SASS powered stylesheets, along with a long list of gulp tasks. I fixed numerous bugs, built things like email subscription pop up modals and maintained the numerous gulp tasks that went along with the project. As well, I did a lot of bug fixes and feature addition and maintenance to the CMS and curation tools that powered the articles for timeline.com Sad to see it all go because this was a pretty big codebase that a lot of people worked very hard on, but on to bigger and better things, I guess.",
+     "images":[
+        {
+           "src":"images/work/12.1.png",
+           "alt":"Timeline Homepage Image 1"
+        },
+        {
+           "src":"images/work/12.2.png",
+           "alt":"Timeline Homepage Image 2"
+        },
+        {
+           "src":"images/work/12.3.png",
+           "alt":"Timeline Homepage Image 3"
+        }
+     ]
+  },
+  {
+     "id":13,
+     "title":"Timeline - Embed Builder",
+     "url":"http://timeline-embed-staging.herokuapp.com",
+     "urltitle":"http://timeline-embed-staging.herokuapp.com",
+     "content":"This was a demo project to allow users to pick a series of webpages and then create an iframe module to display that list in a nice UI. The app would have to scrape the site provided by the user, save the neccessary content and then serve it up for display in the iframe embed constructor UI and then in the iframe UI too. I was mostly responsible for the frontend of the App (although I worked on the API too), which is a single page webapp. Using React and ES6 modules along with webpack and a series of React libs, it was very easy to create components that we could use twofold -- in the frame app and in the embed constructor app. This site was a total success on the technology side, but has not really been picked up from the sales side. Dems da breaks.",
+     "images":[
+        {
+           "src":"images/work/13.1.png",
+           "alt":"Timeline Embed Builder Image 1"
+        },
+        {
+           "src":"images/work/13.2.png",
+           "alt":"Timeline Embed Builder Image 2"
+        },
+        {
+           "src":"images/work/13.3.png",
+           "alt":"Timeline Embed Builder Image 3"
+        }
+     ]
+  },
+  {
+     "id":14,
+     "title":"Timeline - Longform",
+     "url":"http://longform.timeline.com/sanfrancisco_satanist",
+     "urltitle":"http://longform.timeline.com/sanfrancisco_satanist",
+     "content":"After timeline switched to using Medium as their primary website and CMS, the content that Timeline publishes was sort of standardized in terms of code and layout options. However, we still wanted to have a a place to publish longform articles with unique layouts and more experimental code options (graphing and mapping with d3, etc.). So, we needed a whole new infrastructure to support this. Hence, longform.timeline.com, which is a little nodejs express app. From getting the hosting with heroku, setting up AWS name servers for the subdomain, setting up heroku pipelines for staging and production and hooking in github and then writing all the styles and javascript, I was responsible for it all. As well, I helped come up with features for the article (maps of locations from the article, satanic pentagrams featuring lead characters from the story, etc.) and even contributed to large parts of the design. Something to be proud of.",
+     "images":[
+        {
+           "src":"images/work/14.1.png",
+           "alt":"Timeline Longform Image 1"
+        },
+        {
+           "src":"images/work/14.2.png",
+           "alt":"Timeline Longform Image 2"
+        },
+        {
+           "src":"images/work/14.3.png",
+           "alt":"Timeline Longform Image 3"
+        },
+        {
+           "src":"images/work/14.4.png",
+           "alt":"Timeline Longform Image 4"
+        }
+     ]
+  },
+  {
+     "id":11,
+     "title":"Mobidia",
+     "url":"http://www.mobidia.com/",
+     "urltitle":"http://www.mobidia.com/ (not the dashboard I built)",
+     "content":"Mobidia had a singlepage webapp dashboard built from vanilla javascript (and jQuery) that functioned in a browser, but from a code organization standard, was completely haphazard. I was brought it to basically rebuild the dashboard in a way that would allow other developers to extend ony my work and make adding new features to the analytics dashboard much easier. So using Backbone/Marionette and browserify, along with gulp and LESS, I did this following sound MVC principles. The site was a success, but the company was bought by the Chinese, my webapp was phased out due to the buying companies preference for doing most rendering with PHP and my contract was ended early. They offered me a spot in China, but that was a bit more than I was willing to take on, and I decided to move on to something else here in Vancouver.",
+     "images":[
+        {
+           "src":"images/work/11.1.jpg",
+           "alt":"QuickMobile Inc Image 1"
+        },
+        {
+           "src":"images/work/11.2.jpg",
+           "alt":"QuickMobile Inc Image 2"
+        },
+        {
+           "src":"images/work/11.3.jpg",
+           "alt":"QuickMobile Inc Image 3"
+        }
+     ]
+  },
+  {
+     "id":10,
+     "title":"QuickMobile Inc.",
+     "url":"http://www.quickmobile.com/",
+     "urltitle":"http://www.quickmobile.com/ (client facing site)",
+     "content":"QuickMobile needed a significant overhaul of thier javascript best practices and codebase when I started working fulltime for this Vancouver based shop. From folder structures of css code to decisions about what design patterns to follow for the sites JS, major decisions and updates were required. We're in the process of bring online a new Backbone/Marionette/RequireJS flavoured framework (which I am spearheading on the design and implementation fronts) to handle all of our javascript, along with using tools like bower and grunt.",
+     "images":[
+        {
+           "src":"images/work/10.1.jpg",
+           "alt":"QuickMobile Inc Image 1"
+        },
+        {
+           "src":"images/work/10.2.jpg",
+           "alt":"QuickMobile Inc Image 2"
+        },
+        {
+           "src":"images/work/10.3.jpg",
+           "alt":"QuickMobile Inc Image 3"
+        }
+     ]
+  },
    {
       "id":1,
       "title":"Tag Idea Revolution",
@@ -173,27 +282,6 @@
          {
             "src":"images/work/9.1.jpg",
             "alt":"cameronstrandberg.com mock 1 Image 1"
-         }
-      ]
-   },
-   {
-      "id":10,
-      "title":"QuickMobile Inc.",
-      "url":"http://www.quickmobile.com/",
-      "urltitle":"http://www.quickmobile.com/ (client facing site)",
-      "content":"My current awesome gig. QuickMobile needed a significant overhaul of thier javascript best practices and codebase when I started working fulltime for this Vancouver based shop. From folder structures to decisions about what design patterns to follow, major decisions and updates were required. We're in the process of bring online a new Backbone/Marionette/RequireJS flavoured framework (which I am spearheading on the design and implementation fronts) to handle all of our javascript, along with using tools like bower and grunt. :) Things look bright.",
-      "images":[
-         {
-            "src":"images/work/10.1.jpg",
-            "alt":"QuickMobile Inc Image 1"
-         },
-         {
-            "src":"images/work/10.2.jpg",
-            "alt":"QuickMobile Inc Image 2"
-         },
-         {
-            "src":"images/work/10.3.jpg",
-            "alt":"QuickMobile Inc Image 3"
          }
       ]
    }

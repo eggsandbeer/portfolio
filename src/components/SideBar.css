@@ -1,0 +1,8 @@
+#SideBar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ActiveSideBarItem {
+  color: red;
+}
