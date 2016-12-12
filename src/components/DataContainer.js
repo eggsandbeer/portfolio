@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SideBar from './SideBar';
 import MainArea from './MainArea';
 import Data from '../data/data.json';
+import * as ReactFauxDOM from 'react-faux-dom';
 
 class DataContainer extends Component {
   constructor(props){
@@ -19,16 +20,14 @@ class DataContainer extends Component {
   }
   render(){
     return(
-      <div className="container">
-        <div className="row">
-          <SideBar
-            handleActiveClick={this.handleActiveClick.bind(this)}
-            dataset={this.state.dataset}
-          />
-          <MainArea
-            set={this.state.activeSet}
-          />
-        </div>
+      <div className="row">
+        <SideBar
+          handleActiveClick={this.handleActiveClick.bind(this)}
+          dataset={this.state.dataset}
+        />
+        <MainArea
+          set={this.state.activeSet}
+        />
       </div>
     )
   }

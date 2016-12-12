@@ -45,3 +45,57 @@ h3 {
   margin: 0 auto 20px auto;
   display: block;
 }
+#Footer {
+  margin-bottom: 10px;
+}
+#Footer img {
+  float: left;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 2px;
+}
+#Footer ul {
+  list-style: none;
+  display: block;
+  height: auto;
+  padding: 0;
+  border-top: 1px solid white;
+}
+#Footer ul.contact li {
+  border-bottom: 1px solid #ffffff;
+}
+#Footer li {
+  display: block;
+  min-height: 32px;
+  border-top-width: 0;
+  background-color: #230705;
+  padding: 5px 0 0 0;
+  position: relative;
+  margin-right: 10px;
+}
+#Footer a {
+  font-family: "adobe-garamond-pro", Garamond, serif;;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 0 5px;
+  clear: left;
+  float: left;
+  color: #dcdede;
+}
+#Footer a:hover {
+  color: #f47040;
+}
+#FinePrint {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+#FinePrint p {
+    padding: 0;
+    padding-top: 6px;
+    font-size: 0.8em;
+    margin: 0;
+}

@@ -19,18 +19,49 @@
   border: 1px solid #fff;
   margin: 10px 0;
 }
+.MainArea {
+  position: relative;
+}
+.MainArea div {
+  position: relative;
+  top: 0;
+  left: 0;
+}
 .switch-enter {
-  opacity: 0.01;
-  transition-delay: 250ms;
+  opacity: 0;
 }
 .switch-enter.switch-enter-active {
   opacity: 1.0;
-  transition: opacity 250ms ease-in;
+  transition: opacity 250ms;
+  transition-delay: 250ms;
 }
 .switch-leave {
   opacity: 1.0;
 }
 .switch-leave.switch-leave-active {
   opacity: 0;
-  transition: opacity 250ms ease-out;
+  transition: opacity 250ms;
+}
+.placeholder {
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.placeholder img {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 250ms linear;
+}
+.placeholder img.loaded {
+  opacity: 1;
+}
+.imgSmall {
+  filter: blur(50px);
+  /* this is needed so Safari keeps sharp edges */
+  transform: scale(1);
 }
