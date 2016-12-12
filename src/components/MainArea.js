@@ -4,27 +4,14 @@ import ImageLoader from './ImageLoader';
 import './MainArea.css';
 
 class MainArea extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      imageWidth : 0
-    };
-  }
-  _onLoad(e) {
-    // console.log(e.target.offsetHeight)
-    this.setState({
-      imageHeight: e.target.offsetHeight
-    });
-  }
-  onThumbNailLoad(key, e){
-    console.log('THUMBNAIL LOAD', key+'Height')
-    this.setState({
-       [key+'Height']: e.target.offsetHeight
-    });
-  }
   render(){
     return(
       <div className={"MainArea col-md-9"}>
+        <ReactCSSTransitionGroup
+          transitionName="switch"
+          transitionEnterTimeout={250}
+          transitionLeaveTimeout={250}
+        >
           <div ref={(input) => { this.heightcontainer = input; }} key={this.props.set.id}>
             <h3 key="h3">{this.props.set.title}</h3>
             <p>
@@ -43,7 +30,7 @@ class MainArea extends Component {
               />
             )}
           </div>
-
+        </ReactCSSTransitionGroup>
       </div>
     );
   }

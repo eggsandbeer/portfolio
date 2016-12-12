@@ -32,15 +32,14 @@
 }
 .switch-enter.switch-enter-active {
   opacity: 1.0;
-  transition: opacity 250ms;
-  transition-delay: 250ms;
+  transition: opacity 250ms ease-in;
 }
 .switch-leave {
   opacity: 1.0;
 }
 .switch-leave.switch-leave-active {
   opacity: 0;
-  transition: opacity 250ms;
+  transition: opacity 250ms ease-out;
 }
 .placeholder {
   background-color: #f6f6f6;
@@ -55,7 +54,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  transition: opacity 250ms linear;
+  transition: opacity 400ms ease-in;
 }
 .placeholder img.loaded {
   opacity: 1;
