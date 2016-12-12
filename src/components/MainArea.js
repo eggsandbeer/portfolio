@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import * as ReactFauxDOM from 'react-faux-dom';
 import ImageLoader from './ImageLoader';
 import './MainArea.css';
 
@@ -24,11 +23,8 @@ class MainArea extends Component {
     });
   }
   render(){
-
-
     return(
       <div className={"MainArea col-md-9"}>
-
           <div ref={(input) => { this.heightcontainer = input; }} key={this.props.set.id}>
             <h3 key="h3">{this.props.set.title}</h3>
             <p>
