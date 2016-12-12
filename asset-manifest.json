@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.bf654634.css",
-  "main.css.map": "static/css/main.bf654634.css.map",
-  "main.js": "static/js/main.9a04b5c1.js",
-  "main.js.map": "static/js/main.9a04b5c1.js.map",
+  "main.css": "static/css/main.0cc9d798.css",
+  "main.css.map": "static/css/main.0cc9d798.css.map",
+  "main.js": "static/js/main.17b9409f.js",
+  "main.js.map": "static/js/main.17b9409f.js.map",
   "static\\media\\2.png": "static/media/2.97a591db.png",
   "static\\media\\5.png": "static/media/5.cf023339.png",
   "static\\media\\6.png": "static/media/6.3c74983d.png",
@@ -12,5 +12,6 @@
   "static\\media\\glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
   "static\\media\\glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
   "static\\media\\main-bg.jpg": "static/media/main-bg.60043e52.jpg",
-  "static\\media\\mainline.png": "static/media/mainline.af337c2a.png"
+  "static\\media\\mainline.png": "static/media/mainline.af337c2a.png",
+  "static\\media\\profile.png": "static/media/profile.1e3df245.png"
 }
