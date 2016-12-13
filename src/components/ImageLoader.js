@@ -3,15 +3,15 @@ import './MainArea.css';
 
 class ImageLoader extends Component {
   componentDidMount(){
-    // setTimeout(() => {
-    const placeholder = this.placeholder;
-    const imgLarge = new Image();
-    imgLarge.src = this.props.fullimage;
-    imgLarge.onload = () => {
-      imgLarge.classList.add('loaded');
-    };
-    placeholder.appendChild(imgLarge);
-    // }, 1000)
+
+  const placeholder = this.placeholder;
+  const imgLarge = new Image();
+  imgLarge.src = this.props.fullimage;
+  imgLarge.onload = () => {
+    imgLarge.classList.add('loaded');
+  };
+  placeholder.appendChild(imgLarge);
+
   }
   smallOnLoad() {
     this.smallplaceholder.classList.add('loaded');

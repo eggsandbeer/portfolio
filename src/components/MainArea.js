@@ -7,14 +7,14 @@ class MainArea extends Component {
     return(
       <div className={"MainArea col-md-9"}>
         <div ref={(input) => { this.heightcontainer = input; }} key={this.props.set.id}>
-          <h3 key="h3">{this.props.set.title}</h3>
+          <h3 className={this.props.set.id} key="h3">{this.props.set.title}</h3>
           <p>
             <a href={this.props.set.url}>
               {this.props.set.urltitle}
             </a>
           </p>
-          <hr />
-          <p>
+          <hr className={this.props.set.id} />
+          <p className={this.props.set.id}>
             {this.props.set.content}
           </p>
           {this.props.set.images.map((set, i) =>

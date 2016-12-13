@@ -1,5 +1,12 @@
 [
   {
+    "id": "welcome",
+    "title": "Welcome",
+    "startdate": "Always",
+    "content": "THIS IS MY WEBSITE. I'M SUPER COOL. FEEL FREE TO LOOK AROUND AND CLICK ON STUFF OVER THERE ON THE SIDE. :)",
+    "images": []
+  },
+  {
      "id":12,
      "title":"Timeline",
      "startdate": "August. 2015",

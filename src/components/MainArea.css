@@ -22,19 +22,22 @@
   top: 0;
   left: 0;
 }
-.switch-enter {
-  opacity: 0;
+.MainArea h3.welcome {
+  font-size: 25vw;
+  line-height: 0.8em;
+  margin: 0;
 }
-.switch-enter.switch-enter-active {
-  opacity: 1.0;
-  transition: opacity 250ms ease-in;
+.MainArea hr.welcome {
+  font-size: 6em;
+  margin: 0;
+  border-width: 0.5em;
+  margin-bottom: 10px;
 }
-.switch-leave {
-  opacity: 1.0;
-}
-.switch-leave.switch-leave-active {
-  opacity: 0;
-  transition: opacity 250ms ease-out;
+.MainArea p.welcome {
+  font-family: "league-gothic", sans-serif;
+  font-size: 6em;
+  line-height: 1em;
+  margin: 0;
 }
 .placeholderBorder {
   border: 1px solid #fff;

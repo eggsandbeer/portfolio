@@ -19,8 +19,8 @@
   padding-top: 5px;
 }
 #SideBar li:hover img {
-  right: 0;
-  transition: right 0.2s;
+  /*right: 0;*/
+  /*transition: right 0.2s;*/
 }
 #SideBar li img {
   position: absolute;
@@ -28,15 +28,15 @@
   top: 0;
   z-index: 99;
   pointer-events: none;
-  transition: right 0.2s;
+  /*transition: right 0.2s;*/
 }
 #SideBar .ActiveSideBarItem {
   border-left: 4px solid #c83e2c;
 }
 #SideBar .ActiveSideBarItem img {
-  right: 0;
+  /*right: 0;*/
 }
 #SideBar .ActiveSideBarItem img.bw {
-  opacity: 0;
-  transition: opacity 0.2s;
+  /*opacity: 0;*/
+  /*transition: opacity 0.2s;*/
 }
