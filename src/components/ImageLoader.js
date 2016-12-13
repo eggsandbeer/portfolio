@@ -4,8 +4,8 @@ import './MainArea.css';
 class ImageLoader extends Component {
   componentDidMount(){
     const placeholder = this.placeholder;
+    const imgLarge = new Image();
 
-    var imgLarge = new Image();
     imgLarge.src = this.props.fullimage;
     imgLarge.onload = function () {
       imgLarge.classList.add('loaded');
@@ -17,14 +17,16 @@ class ImageLoader extends Component {
   }
   render(){
     return(
-      <div ref={(placeholder) => {this.placeholder = placeholder}} className="placeholder">
-        <img
-          ref={(smallplaceholder) => {this.smallplaceholder = smallplaceholder}}
-          src={this.props.thumbnailimage}
-          className="imgSmall"
-          onLoad={this.smallOnLoad.bind(this)}
-        />
-        <div style={{paddingBottom: "66.6%"}}></div>
+      <div className="placeholderBorder">
+        <div ref={(placeholder) => {this.placeholder = placeholder}} className="placeholder">
+          <img
+            ref={(smallplaceholder) => {this.smallplaceholder = smallplaceholder}}
+            src={this.props.thumbnailimage}
+            className="imgSmall"
+            onLoad={this.smallOnLoad.bind(this)}
+          />
+          <div style={{paddingBottom: this.props.ratio}}></div>
+        </div>
       </div>
     );
   }

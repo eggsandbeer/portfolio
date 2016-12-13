@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import SideBar from './SideBar';
 import MainArea from './MainArea';
 import Data from '../data/data.json';
-import * as ReactFauxDOM from 'react-faux-dom';
 
 class DataContainer extends Component {
   constructor(props){
-    console.log(Data)
     super(props);
     this.state = {
       dataset: Data,

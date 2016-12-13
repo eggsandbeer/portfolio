@@ -14,11 +14,6 @@
 .MainArea hr {
   margin: 0 0 10px 0;
 }
-.MainArea img {
-  padding: 5px;
-  border: 1px solid #fff;
-  margin: 10px 0;
-}
 .MainArea {
   position: relative;
 }
@@ -40,6 +35,11 @@
 .switch-leave.switch-leave-active {
   opacity: 0;
   transition: opacity 250ms ease-out;
+}
+.placeholderBorder {
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 10px 0;
 }
 .placeholder {
   background-color: #f6f6f6;

@@ -9,15 +9,18 @@
      "images":[
         {
            "src":"images/work/12.1.png",
-           "alt":"Timeline Homepage Image 1"
+           "alt":"Timeline Homepage Image 1",
+           "ratio": "57.48%"
         },
         {
            "src":"images/work/12.2.png",
-           "alt":"Timeline Homepage Image 2"
+           "alt":"Timeline Homepage Image 2",
+           "ratio": "57.48%"
         },
         {
            "src":"images/work/12.3.png",
-           "alt":"Timeline Homepage Image 3"
+           "alt":"Timeline Homepage Image 3",
+           "ratio": "57.48%"
         }
      ]
   },
@@ -31,15 +34,18 @@
      "images":[
         {
            "src":"images/work/13.1.png",
-           "alt":"Timeline Embed Builder Image 1"
+           "alt":"Timeline Embed Builder Image 1",
+           "ratio": "58.75%"
         },
         {
            "src":"images/work/13.2.png",
-           "alt":"Timeline Embed Builder Image 2"
+           "alt":"Timeline Embed Builder Image 2",
+           "ratio":"57.49%"
         },
         {
            "src":"images/work/13.3.png",
-           "alt":"Timeline Embed Builder Image 3"
+           "alt":"Timeline Embed Builder Image 3",
+           "ratio": "53.75%"
         }
      ]
   },
@@ -53,19 +59,23 @@
      "images":[
         {
            "src":"images/work/14.1.png",
-           "alt":"Timeline Longform Image 1"
+           "alt":"Timeline Longform Image 1",
+           "ratio": "53.75%"
         },
         {
            "src":"images/work/14.2.png",
-           "alt":"Timeline Longform Image 2"
+           "alt":"Timeline Longform Image 2",
+           "ratio": "53.75%"
         },
         {
            "src":"images/work/14.3.png",
-           "alt":"Timeline Longform Image 3"
+           "alt":"Timeline Longform Image 3",
+           "ratio": "53.75%"
         },
         {
            "src":"images/work/14.4.png",
-           "alt":"Timeline Longform Image 4"
+           "alt":"Timeline Longform Image 4",
+           "ratio": "53.75%"
         }
      ]
   },
@@ -79,15 +89,18 @@
      "images":[
         {
            "src":"images/work/11.1.jpg",
-           "alt":"QuickMobile Inc Image 1"
+           "alt":"QuickMobile Inc Image 1",
+           "ratio": "53.75%"
         },
         {
            "src":"images/work/11.2.jpg",
-           "alt":"QuickMobile Inc Image 2"
+           "alt":"QuickMobile Inc Image 2",
+           "ratio": "53.75%"
         },
         {
            "src":"images/work/11.3.jpg",
-           "alt":"QuickMobile Inc Image 3"
+           "alt":"QuickMobile Inc Image 3",
+            "ratio": "53.75%"
         }
      ]
   },
@@ -101,15 +114,18 @@
      "images":[
         {
            "src":"images/work/10.1.jpg",
-           "alt":"QuickMobile Inc Image 1"
+           "alt":"QuickMobile Inc Image 1",
+           "ratio": "52.5%"
         },
         {
            "src":"images/work/10.2.jpg",
-           "alt":"QuickMobile Inc Image 2"
+           "alt":"QuickMobile Inc Image 2",
+           "ratio": "53.75%"
         },
         {
            "src":"images/work/10.3.jpg",
-           "alt":"QuickMobile Inc Image 3"
+           "alt":"QuickMobile Inc Image 3",
+           "ratio": "51.24999999999999%"
         }
      ]
   },
@@ -123,19 +139,23 @@
       "images":[
          {
             "src":"images/work/1.1.jpg",
-            "alt":"tag Idea Revolution Image 1"
+            "alt":"tag Idea Revolution Image 1",
+            "ratio": "53.75%"
          },
          {
             "src":"images/work/1.2.jpg",
-            "alt":"tag Idea Revolution Image 2"
+            "alt":"tag Idea Revolution Image 2",
+            "ratio": "53.75%"
          },
          {
             "src":"images/work/1.3.jpg",
-            "alt":"tag Idea Revolution Image 4"
+            "alt":"tag Idea Revolution Image 4",
+            "ratio": "53.75%"
          },
          {
             "src":"images/work/1.4.jpg",
-            "alt":"tag Idea Revolution Image 4"
+            "alt":"tag Idea Revolution Image 4",
+            "ratio": "53.75%"
          }
       ]
    },
@@ -149,15 +169,18 @@
       "images":[
          {
             "src":"images/work/2.1.png",
-            "alt":"Nissan/Infiniti Marketing Manager Image 1"
+            "alt":"Nissan/Infiniti Marketing Manager Image 1",
+            "ratio": "76.25%"
          },
          {
             "src":"images/work/2.2.png",
-            "alt":"Nissan/Infiniti Marketing Manager Image 2"
+            "alt":"Nissan/Infiniti Marketing Manager Image 2",
+            "ratio": "91.25%"
          },
          {
             "src":"images/work/2.3.png",
-            "alt":"Nissan/Infiniti Marketing Manager Image 3"
+            "alt":"Nissan/Infiniti Marketing Manager Image 3",
+            "ratio": "75%"
          }
       ]
    },
@@ -171,15 +194,18 @@
       "images":[
          {
             "src":"images/work/3.1.png",
-            "alt":"Kraft Celebration Tour 2012 Image 1"
+            "alt":"Kraft Celebration Tour 2012 Image 1",
+            "ratio": "73.75%"
          },
          {
             "src":"images/work/3.2.png",
-            "alt":"Kraft Celebration Tour 2012 Image 2"
+            "alt":"Kraft Celebration Tour 2012 Image 2",
+            "ratio": "76.25%"
          },
          {
             "src":"images/work/3.3.png",
-            "alt":"Kraft Celebration Tour 2012 Image 3"
+            "alt":"Kraft Celebration Tour 2012 Image 3",
+            "ratio": "76.25%"
          }
       ]
    },
@@ -193,15 +219,18 @@
       "images":[
          {
             "src":"images/work/4.1.png",
-            "alt":"Royal Lepage Commercial Image 1"
+            "alt":"Royal Lepage Commercial Image 1",
+            "ratio": "78.75%"
          },
          {
             "src":"images/work/4.2.png",
-            "alt":"Royal Lepage Commercial Image 2"
+            "alt":"Royal Lepage Commercial Image 2",
+            "ratio": "77.5%"
          },
          {
             "src":"images/work/4.3.png",
-            "alt":"Royal Lepage Commercial Image 3"
+            "alt":"Royal Lepage Commercial Image 3",
+            "ratio": "77.5%"
          }
       ]
    },
@@ -215,15 +244,18 @@
       "images":[
          {
             "src":"images/work/5.1.png",
-            "alt":"Facebook Thinsations Sampling App Image 1"
+            "alt":"Facebook Thinsations Sampling App Image 1",
+            "ratio": "76.25%"
          },
          {
             "src":"images/work/5.2.png",
-            "alt":"Facebook Thinsations Sampling App Image 2"
+            "alt":"Facebook Thinsations Sampling App Image 2",
+            "ratio": "78.75%"
          },
          {
             "src":"images/work/5.3.png",
-            "alt":"Facebook Thinsations Sampling App Image 3"
+            "alt":"Facebook Thinsations Sampling App Image 3",
+            "ratio": "75%"
          }
       ]
    },
@@ -237,15 +269,18 @@
       "images":[
          {
             "src":"images/work/6.1.jpg",
-            "alt":"Langara College Projects Image 1"
+            "alt":"Langara College Projects Image 1",
+            "ratio":"38.75%"
          },
          {
             "src":"images/work/6.2.jpg",
-            "alt":"Langara College Projects Image 2"
+            "alt":"Langara College Projects Image 2",
+            "ratio":"38.75%"
          },
          {
             "src":"images/work/6.3.jpg",
-            "alt":"Langara College Projects Image 3"
+            "alt":"Langara College Projects Image 3",
+            "ratio":"38.75%"
          }
       ]
    },
@@ -259,7 +294,8 @@
       "images":[
          {
             "src":"images/work/7.1.jpg",
-            "alt":"Paul W Strandberg Consulting"
+            "alt":"Paul W Strandberg Consulting",
+            "ratio": "38.75%"
          }
       ]
    },
@@ -273,15 +309,18 @@
       "images":[
          {
             "src":"images/work/8.1.png",
-            "alt":"cameronstrandberg.com mock 2 Image 1"
+            "alt":"cameronstrandberg.com mock 2 Image 1",
+            "ratio": "53.75%"
          },
          {
             "src":"images/work/8.2.png",
-            "alt":"cameronstrandberg.com mock 2 Image 2"
+            "alt":"cameronstrandberg.com mock 2 Image 2",
+            "ratio": "53.75%"
          },
          {
             "src":"images/work/8.3.png",
-            "alt":"cameronstrandberg.com mock 2 Image 3"
+            "alt":"cameronstrandberg.com mock 2 Image 3",
+            "ratio": "60%"
          }
       ]
    },
@@ -295,7 +334,8 @@
       "images":[
          {
             "src":"images/work/9.1.jpg",
-            "alt":"cameronstrandberg.com mock 1 Image 1"
+            "alt":"cameronstrandberg.com mock 1 Image 1",
+            "ratio": "38.75%"
          }
       ]
    }

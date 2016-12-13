@@ -27,6 +27,7 @@ class MainArea extends Component {
               <ImageLoader
                 thumbnailimage={process.env.PUBLIC_URL+'/images/work/'+this.props.set.id+'.'+(i+1)+'.thumbnail.png'}
                 fullimage={process.env.PUBLIC_URL+'/images/work/'+this.props.set.id+'.'+(i+1)+'.png'}
+                ratio={set.ratio}
               />
             )}
           </div>
