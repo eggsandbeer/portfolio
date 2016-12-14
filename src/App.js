@@ -63,7 +63,7 @@ class App extends Component {
                   </div>
                 </div>
                 <p id="small">
-                  cameronstrandberg.com is handcoded by Cameron Strandberg | All work &#169; Cameron Strandberg 2014
+                  cameronstrandberg.com is handcoded by Cameron Strandberg and hosted through github pages | All work &#169; Cameron Strandberg 2017
                 </p>
               </div>
             </div>
