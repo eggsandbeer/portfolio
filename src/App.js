@@ -35,7 +35,7 @@ class App extends Component {
                 <ul>
                   <li>
                     <img alt="Just a little shot of me, Cameron Strandberg" src={ProfileImage} />
-                    Cameron Strandberg is a web developer. He is a graduate of the Electronic Media Design program offered at Langara College in Vancouver, BC. He's a geek, a big thinker, a gregarious personality and a lover of all things that go down big hills fast. He has been building websites for most of his life, but has been doing it professionally for about four years now. He's basically in love with javascript. Once upon a time, he was a full time journalist for a series of newspapers accross Canada, but the horrors of a world without print convinced him to change his mind real quick. If you have freelance work or any thing else you'd like to talk to him about, feel free to drop him a line.
+                    Cameron Strandberg is a web developer. He is a graduate of the Electronic Media Design program offered at Langara College in Vancouver, BC. He's a geek, a big thinker, a gregarious personality and a lover of all things that go down big hills fast. He has been building websites for most of his life, but has been doing it professionally for about four years now. He's basically in love with javascript. Once upon a time, he was a full time journalist for a series of newspapers across Canada, but the horrors of newsprint convinced him to change his mind pretty quick. If you have freelance work or any thing else you'd like to talk to him about, feel free to drop him a line.
                   </li>
                 </ul>
               </div>
