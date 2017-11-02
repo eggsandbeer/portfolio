@@ -7,358 +7,388 @@
     "images": []
   },
   {
-    "id":15,
-    "title":"Carl Data Solutions",
+    "id": 16,
+    "title": "HSBC - Canada",
+    "startdate": "March. 2017",
+    "url": "https://www.hsbc.ca/",
+    "urltitle": "https://dco-ao.hsbc.co.uk/current/bank/eligibility",
+    "content": "HSBC hired me to build out a set of customer facing tools/forms using React/Redux and Angular for some legacy stuff. I can't get into too much detail here, but it's been fun working there.",
+    "images": [
+      {
+        "src": "images/work/16.1.png",
+        "alt": "HSBC - Canada",
+        "ratio": "57.48%"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Carl Data Solutions",
+    "startdate": "April. 2016",
+    "url": "http://www.carlsolutions.com/#/",
+    "urltitle": "http://www.carlsolutions.com/#/ (requires pay to see app)",
+    "content": "Carl hired me to update a lot of their frontend best practices while also building the client side for new apps and features. Mainly, we used a lot of React and Redux and d3 to build some pretty graphically intense interactive inforgraphics. Carl was very much a start up so I wore a lot of different hats there and did things like: help set up wireframes and design docs, contributed to design documents and helped mentor junior devs on code best practices.",
+    "images": [
+      {
+        "src": "images/work/15.1.png",
+        "alt": "Carl Data Solutions 1",
+        "ratio": "57.48%"
+      },
+      {
+        "src": "images/work/15.2.png",
+        "alt": "Carl Data Solutions 2",
+        "ratio": "57.48%"
+      },
+      {
+        "src": "images/work/15.3.png",
+        "alt": "Carl Data Solutions 3",
+        "ratio": "57.48%"
+      },
+      {
+        "src": "images/work/15.4.png",
+        "alt": "Carl Data Solutions 4",
+        "ratio": "57.48%"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Timeline",
     "startdate": "August. 2015",
-    "url":"https://m-staging.timeline.com/",
-    "urltitle":"http://www.timeline.com/ (requires pay for service)",
-    "content":"Although now replaced with a Medium site, I did a significant amount of work on features for the old timeline.com (I've linked to a still online staging site here). Timeline.com was an express/jade app with jQuery plugin based javascript and SASS powered stylesheets, along with a long list of gulp tasks. I fixed numerous bugs, built things like email subscription pop up modals and maintained the numerous gulp tasks that went along with the project. Timeline also had a big CMS, built with angular 1 and a host of plugins/directives from the angular ecosystem were pulled in. I did a lot of bug fixes and feature addition and maintenance to this CMS and curation tools that powered the articles. Lot's of weird angular goodness. It's all gone now though. Sad because this was a pretty big codebase that a lot of people worked very hard on, but on to bigger and better things, I suppose.",
-    "images":[
-       {
-          "src":"images/work/12.1.png",
-          "alt":"Timeline Homepage Image 1",
-          "ratio": "57.48%"
-       }
+    "url": "https://m-staging.timeline.com/",
+    "urltitle": "http://www.timeline.com/ (deprecated)",
+    "content": "Although now replaced with a Medium site, I did a significant amount of work on features for the old timeline.com (I've linked to a still online staging site here). Timeline.com was an express/jade app with jQuery plugin based javascript and SASS powered stylesheets, along with a long list of gulp tasks. I fixed numerous bugs, built things like email subscription pop up modals and maintained the numerous gulp tasks that went along with the project. Timeline also had a big CMS, built with angular 1 and a host of plugins/directives from the angular ecosystem were pulled in. I did a lot of bug fixes and feature addition and maintenance to this CMS and curation tools that powered the articles. Lot's of weird angular goodness. It's all gone now though. Sad because this was a pretty big codebase that a lot of people worked very hard on, but on to bigger and better things, I suppose.",
+    "images": [
+      {
+        "src": "images/work/12.1.png",
+        "alt": "Timeline Homepage Image 1",
+        "ratio": "57.48%"
+      },
+      {
+        "src": "images/work/12.2.png",
+        "alt": "Timeline Homepage Image 2",
+        "ratio": "57.48%"
+      },
+      {
+        "src": "images/work/12.3.png",
+        "alt": "Timeline Homepage Image 3",
+        "ratio": "57.48%"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Timeline - Embed Builder",
+    "startdate": "August. 2015",
+    "url": "http://timeline-embed-staging.herokuapp.com",
+    "urltitle": "http://timeline-embed-staging.herokuapp.com",
+    "content": "This was a demo project mini CMS which would allow users to pick a series of webpages which would be scarped and turned into an iframe module to display and list the names and descriptions of those sites in a nice little UI. I was mostly responsible for the frontend of the CMS and iframe apps (although I worked on the API too), which is React/Flux a single page webapp with webpack tasks and some css modules. This was the first time I used React on a AAA project. It was great; very easy to create components that we could use twofold -- in the frame app and in the embed constructor app. This site was a total success on the technology side, but has not really been picked up from the sales side due to a whole whack a reasons that I'd rather not relive. Dems da breaks.",
+    "images": [
+      {
+        "src": "images/work/13.1.png",
+        "alt": "Timeline Embed Builder Image 1",
+        "ratio": "58.75%"
+      },
+      {
+        "src": "images/work/13.2.png",
+        "alt": "Timeline Embed Builder Image 2",
+        "ratio": "57.49%"
+      },
+      {
+        "src": "images/work/13.3.png",
+        "alt": "Timeline Embed Builder Image 3",
+        "ratio": "53.75%"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Timeline - Longform",
+    "startdate": "August. 2015",
+    "url": "http://longform.timeline.com/sanfrancisco_satanist",
+    "urltitle": "http://longform.timeline.com/sanfrancisco_satanist",
+    "content": "After timeline switched to using Medium as their primary website and CMS, the content that Timeline publishes was sort of standardized in terms of code and layout options. Everything just looks the same on Medium. However, we still wanted to have a a place to publish longform articles with unique layouts and more experimental code options (graphing and mapping with d3, etc.). So, we needed a whole new infrastructure to support this. Hence, longform.timeline.com, which is a little nodejs express app. From getting the hosting with heroku, setting up AWS name servers for the subdomain, setting up heroku pipelines for staging and production and hooking in github and then writing all the styles and javascript for whatever article is in question, I was responsible for it all. Also, I helped come up with features for the article (maps of locations from the article, satanic pentagrams featuring lead characters from the story, etc.) and even contributed to large parts of the design for articles. I kind of spearheaded the whole thing, because, you know, let's do cool journalism, you know? Something to be proud of.",
+    "images": [
+      {
+        "src": "images/work/14.1.png",
+        "alt": "Timeline Longform Image 1",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/14.2.png",
+        "alt": "Timeline Longform Image 2",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/14.3.png",
+        "alt": "Timeline Longform Image 3",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/14.4.png",
+        "alt": "Timeline Longform Image 4",
+        "ratio": "53.75%"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Mobidia",
+    "startdate": "January. 2015",
+    "url": "http://www.mobidia.com/",
+    "urltitle": "http://www.mobidia.com/ (not the dashboard I built)",
+    "content": "At the beginning of this project, Mobidia had a rudimentary singlepage webapp dashboard built from vanilla javascript (and some jQuery) that actually worked pretty well, but from a code organization standard, was completely haphazard and messy. No code strucutre, global namespace pollution, very bad standards. I was brought it to basically rebuild the whole dashboard in a sane way. So using Backbone/Marionette and browserify, along with gulp and LESS, I did this following sound MVC principles. The site was a success, but the company was bought by a Chinese company, my webapp was phased out due to the buying companies preference for doing most rendering with PHP. No more single-page webapps. My contract ended early. They offered me a new spot in China, but that was a bit more than I was willing to take on, and I decided to move on to something else here in Vancouver.",
+    "images": [
+      {
+        "src": "images/work/11.1.jpg",
+        "alt": "QuickMobile Inc Image 1",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/11.2.jpg",
+        "alt": "QuickMobile Inc Image 2",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/11.3.jpg",
+        "alt": "QuickMobile Inc Image 3",
+        "ratio": "53.75%"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "QuickMobile Inc.",
+    "startdate": "August. 2013",
+    "url": "http://www.quickmobile.com/",
+    "urltitle": "http://www.quickmobile.com/ (client facing site)",
+    "content": "QuickMobile needed a significant overhaul of thier javascript best practices and codebase when I started working fulltime for this Vancouver based shop. The had an app that had been around for a while and the frontend had stagnated. From folder structures of css code to decisions about what design patterns to follow for the sites JS, major decisions and updates were required. This was the bulk of my job there -- organizing sins of the past. We built a lot of cool stuff though too,   including Backbone/Marionette/RequireJS flavoured features, and added some tool chaining using tools like bower and grunt. I helped them get some E2E tests going with Selenium along with a whole suite of unit tests too.",
+    "images": [
+      {
+        "src": "images/work/10.1.jpg",
+        "alt": "QuickMobile Inc Image 1",
+        "ratio": "52.5%"
+      },
+      {
+        "src": "images/work/10.2.jpg",
+        "alt": "QuickMobile Inc Image 2",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/10.3.jpg",
+        "alt": "QuickMobile Inc Image 3",
+        "ratio": "51.24999999999999%"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Tag Idea Revolution",
+    "startdate": "March. 2013",
+    "url": "http://idearevolution.ca/",
+    "urltitle": "http://idearevolution.ca/",
+    "content": "I was completely responsible for the frontend of this single page webapp project which nested several hundred different links/pages. Lot's of organization was required. I used Backbone and RequireJS to consume an API that was spit out from a handy little JSON plugin that we found for Wordpress. The project is supposed to be responsive and to a large extend it is, but a site that is supposed to adapt to fit ANY size device is pretty tricky to accomplish and you can see some of the seems showing on some pages. Still, I'm proud of this site, and it certainly walked me through the basics and more advanced sides of MVC frameworks like Backbone.",
+    "images": [
+      {
+        "src": "images/work/1.1.jpg",
+        "alt": "tag Idea Revolution Image 1",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/1.2.jpg",
+        "alt": "tag Idea Revolution Image 2",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/1.3.jpg",
+        "alt": "tag Idea Revolution Image 4",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/1.4.jpg",
+        "alt": "tag Idea Revolution Image 4",
+        "ratio": "53.75%"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Nissan/Infiniti Marketing Manager",
+    "startdate": "Oct. 2012",
+    "url": "http://www.tmsw.com/toronto/our-work-0",
+    "urltitle": "Client facing -- not accessible to public",
+    "content": "I was responsible for consuming the frontend of this java project which was kind of a mix of a single/multi-page webapp. Mostly this is jQuery and LESS with a little backbone.js. We used handlebars as out templating engine to handle our JSON responses (which were freaking huge, I remember) but this was in the days before I really knew what MVC on the frontend really was. So, there is a lot of data attrs here to find and check the status of elements and then update accordingly. Lots of form submissions, lots of slideshows, lots of twitter's bootstrap and LESS and lots and lots and lots of JSON consumption. Good stuff and a definite high point in my learning process.",
+    "images": [
+      {
+        "src": "images/work/2.1.png",
+        "alt": "Nissan/Infiniti Marketing Manager Image 1",
+        "ratio": "76.25%"
+      },
+      {
+        "src": "images/work/2.2.png",
+        "alt": "Nissan/Infiniti Marketing Manager Image 2",
+        "ratio": "91.25%"
+      },
+      {
+        "src": "images/work/2.3.png",
+        "alt": "Nissan/Infiniti Marketing Manager Image 3",
+        "ratio": "75%"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Kraft Celebration Tour 2012",
+    "startdate": "May. 2012",
+    "url": "http://www.kraftcelebrationtour.ca/en/",
+    "urltitle": "Kraft Celebration Tour (2012 link no longer available)",
+    "content": "I was responsible for writing all of the css and html markup for this site for everything from forms to the projects container scaffolding. We used Python/Django which are good skills to have. I wrote a lot of the javascript on things like timers and countdown displays, comment handling, form submission validation, slideshows and more. It was the most javascript I'd ever written. It's like, 'whoa', now.",
+    "images": [
+      {
+        "src": "images/work/3.1.png",
+        "alt": "Kraft Celebration Tour 2012 Image 1",
+        "ratio": "73.75%"
+      },
+      {
+        "src": "images/work/3.2.png",
+        "alt": "Kraft Celebration Tour 2012 Image 2",
+        "ratio": "76.25%"
+      },
+      {
+        "src": "images/work/3.3.png",
+        "alt": "Kraft Celebration Tour 2012 Image 3",
+        "ratio": "76.25%"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Royal Lepage Commercial",
+    "startdate": "May. 2012",
+    "url": "http://www.royallepagecommercial.com/",
+    "urltitle": "http://www.royallepagecommercial.com/",
+    "content": "I was responsible for writing all of the css and html markup for this site for everything from forms to the projects container scaffolding. As well, I worked with django to call for data to display on blogs, agent profiles, etc, etc. I wrote some of the javascript on some of the slideshows that are buried inside the site, and then helped out too with submitting data through ajax for various forms around the site. Man, I was super dumb then. Super super super.",
+    "images": [
+      {
+        "src": "images/work/4.1.png",
+        "alt": "Royal Lepage Commercial Image 1",
+        "ratio": "78.75%"
+      },
+      {
+        "src": "images/work/4.2.png",
+        "alt": "Royal Lepage Commercial Image 2",
+        "ratio": "77.5%"
+      },
+      {
+        "src": "images/work/4.3.png",
+        "alt": "Royal Lepage Commercial Image 3",
+        "ratio": "77.5%"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Facebook Thinsations Sampling App",
+    "startdate": "May. 2012",
+    "url": "https://www.facebook.com/Thinsations",
+    "urltitle": "https://www.facebook.com/Thinsations (expired -- app no longer available)",
+    "content": "The first commerical project I was ever involved with. I built the css for this facebook app and learned my way around facebook's SDK. Mostly though, this was where I learned about some of the more advanced elements inside webpage styling. SMACS, LESS (style vars, extends, mixins, import options), the difference between using glyphicons and vectors, style sheet concatentation and minification, Django's pipeline. 'This styling of website thing can get way more complicated than I thought. I don't know anything at all really.' I remember thinking. Scary scaty.",
+    "images": [
+      {
+        "src": "images/work/5.1.png",
+        "alt": "Facebook Thinsations Sampling App Image 1",
+        "ratio": "76.25%"
+      },
+      {
+        "src": "images/work/5.2.png",
+        "alt": "Facebook Thinsations Sampling App Image 2",
+        "ratio": "78.75%"
+      },
+      {
+        "src": "images/work/5.3.png",
+        "alt": "Facebook Thinsations Sampling App Image 3",
+        "ratio": "75%"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Langara College Projects",
+    "startdate": "January. 2011",
+    "url": "#project/6",
+    "urltitle": "Lost to the great unbacked up hard drive in the sky",
+    "content": "I went to Langara College for their interactive design and development program (which is now defunct). Langara isn't known for producing developers, but learning to code was definitely my focus when I went there. I tried to bring all of my projects back to code somehow. I knew this was what I wanted to do. So, I used the google globe project on a project about how colour choices matter. I built my own font using fontstruct's site and I launched a number of small websites for displaying it. I had a very rudementary degree of knowledge about web basics before Langara. I'd done some basic stuff with Wordpress theming and css, but I was pretty green. After Langara, my foundational knowledge was much stronger. The difference between position absolute and relative. What a script really tag is. Floats. What a var is. What ajax is (actually, I didn't know that one at all after Langara) Em vs rems vs px. It was these basic things that I honed while at Langara.",
+    "images": [
+      {
+        "src": "images/work/6.1.jpg",
+        "alt": "Langara College Projects Image 1",
+        "ratio": "38.75%"
+      },
+      {
+        "src": "images/work/6.2.jpg",
+        "alt": "Langara College Projects Image 2",
+        "ratio": "38.75%"
+      },
+      {
+        "src": "images/work/6.3.jpg",
+        "alt": "Langara College Projects Image 3",
+        "ratio": "38.75%"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "PWS Consulting",
+    "startdate": "May. 2011",
+    "url": "#project/7",
+    "urltitle": "Dad found work so he let this thing expire. Probably for the best.",
+    "content": "So I built this Wordpress website for my Dad. I even did the logo design. Thankfully, I don't think it exists anywhere on the internet anymore. You are looking at probably the only known photo of that site. Anywhoo, I'm going to follow the rule of 'If you have nothing good to say, don't say anything at all' about this site and just sum it up by saying that my Dad found a great consulting gig after we built this site together. I like to think I played a small part in that.",
+    "images": [
+      {
+        "src": "images/work/7.1.jpg",
+        "alt": "Paul W Strandberg Consulting",
+        "ratio": "38.75%"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "cameronstrandberg.com mock 2",
+    "startdate": "January. 2010",
+    "url": "#project/8",
+    "urltitle": "Well. It could go back online, if I bothered setting up a site with wordpress.",
+    "content": "The first website that I actually used my own javascript on. My first js? Shock, horror, a photo slideshow carousel. I'm sure if I read over it today, I'd hang my head in abject shame, but hey, you've got to start somewhere. The day I realized that carousels are often just tricks being played with containers, overflows, margins and widths, was the day I said to myself 'I can absolutely figure out this web development stuff. I'm smart enough, dammit, I am'.",
+    "images": [
+      {
+        "src": "images/work/8.1.png",
+        "alt": "cameronstrandberg.com mock 2 Image 1",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/8.2.png",
+        "alt": "cameronstrandberg.com mock 2 Image 2",
+        "ratio": "53.75%"
+      },
+      {
+        "src": "images/work/8.3.png",
+        "alt": "cameronstrandberg.com mock 2 Image 3",
+        "ratio": "60%"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "cameronstrandberg.com mock 1",
+    "startdate": "January. 2008",
+    "url": "#project/9",
+    "urltitle": "It's gone and the word is a better place for it.",
+    "content": "One of the first websites I ever launched, though not the one that has my super cool iceberg logo .png photoshop work, which is now lost to history forever. So sad. Oh wordpress, I loved you so once. A prime example of the importance of taking screen shots of your work so you can laugh at it later.",
+    "images": [
+      {
+        "src": "images/work/9.1.jpg",
+        "alt": "cameronstrandberg.com mock 1 Image 1",
+        "ratio": "38.75%"
+      }
     ]
   }
-  {
-     "id":12,
-     "title":"Timeline",
-     "startdate": "August. 2015",
-     "url":"https://m-staging.timeline.com/",
-     "urltitle":"http://www.timeline.com/ (deprecated)",
-     "content":"Although now replaced with a Medium site, I did a significant amount of work on features for the old timeline.com (I've linked to a still online staging site here). Timeline.com was an express/jade app with jQuery plugin based javascript and SASS powered stylesheets, along with a long list of gulp tasks. I fixed numerous bugs, built things like email subscription pop up modals and maintained the numerous gulp tasks that went along with the project. Timeline also had a big CMS, built with angular 1 and a host of plugins/directives from the angular ecosystem were pulled in. I did a lot of bug fixes and feature addition and maintenance to this CMS and curation tools that powered the articles. Lot's of weird angular goodness. It's all gone now though. Sad because this was a pretty big codebase that a lot of people worked very hard on, but on to bigger and better things, I suppose.",
-     "images":[
-        {
-           "src":"images/work/12.1.png",
-           "alt":"Timeline Homepage Image 1",
-           "ratio": "57.48%"
-        },
-        {
-           "src":"images/work/12.2.png",
-           "alt":"Timeline Homepage Image 2",
-           "ratio": "57.48%"
-        },
-        {
-           "src":"images/work/12.3.png",
-           "alt":"Timeline Homepage Image 3",
-           "ratio": "57.48%"
-        }
-     ]
-  },
-  {
-     "id":13,
-     "title":"Timeline - Embed Builder",
-     "startdate": "August. 2015",
-     "url":"http://timeline-embed-staging.herokuapp.com",
-     "urltitle":"http://timeline-embed-staging.herokuapp.com",
-     "content":"This was a demo project mini CMS which would allow users to pick a series of webpages which would be scarped and turned into an iframe module to display and list the names and descriptions of those sites in a nice little UI. I was mostly responsible for the frontend of the CMS and iframe apps (although I worked on the API too), which is React/Flux a single page webapp with webpack tasks and some css modules. This was the first time I used React on a AAA project. It was great; very easy to create components that we could use twofold -- in the frame app and in the embed constructor app. This site was a total success on the technology side, but has not really been picked up from the sales side due to a whole whack a reasons that I'd rather not relive. Dems da breaks.",
-     "images":[
-        {
-           "src":"images/work/13.1.png",
-           "alt":"Timeline Embed Builder Image 1",
-           "ratio": "58.75%"
-        },
-        {
-           "src":"images/work/13.2.png",
-           "alt":"Timeline Embed Builder Image 2",
-           "ratio":"57.49%"
-        },
-        {
-           "src":"images/work/13.3.png",
-           "alt":"Timeline Embed Builder Image 3",
-           "ratio": "53.75%"
-        }
-     ]
-  },
-  {
-     "id":14,
-     "title":"Timeline - Longform",
-     "startdate": "August. 2015",
-     "url":"http://longform.timeline.com/sanfrancisco_satanist",
-     "urltitle":"http://longform.timeline.com/sanfrancisco_satanist",
-     "content":"After timeline switched to using Medium as their primary website and CMS, the content that Timeline publishes was sort of standardized in terms of code and layout options. Everything just looks the same on Medium. However, we still wanted to have a a place to publish longform articles with unique layouts and more experimental code options (graphing and mapping with d3, etc.). So, we needed a whole new infrastructure to support this. Hence, longform.timeline.com, which is a little nodejs express app. From getting the hosting with heroku, setting up AWS name servers for the subdomain, setting up heroku pipelines for staging and production and hooking in github and then writing all the styles and javascript for whatever article is in question, I was responsible for it all. Also, I helped come up with features for the article (maps of locations from the article, satanic pentagrams featuring lead characters from the story, etc.) and even contributed to large parts of the design for articles. I kind of spearheaded the whole thing, because, you know, let's do cool journalism, you know? Something to be proud of.",
-     "images":[
-        {
-           "src":"images/work/14.1.png",
-           "alt":"Timeline Longform Image 1",
-           "ratio": "53.75%"
-        },
-        {
-           "src":"images/work/14.2.png",
-           "alt":"Timeline Longform Image 2",
-           "ratio": "53.75%"
-        },
-        {
-           "src":"images/work/14.3.png",
-           "alt":"Timeline Longform Image 3",
-           "ratio": "53.75%"
-        },
-        {
-           "src":"images/work/14.4.png",
-           "alt":"Timeline Longform Image 4",
-           "ratio": "53.75%"
-        }
-     ]
-  },
-  {
-     "id":11,
-     "title":"Mobidia",
-     "startdate": "January. 2015",
-     "url":"http://www.mobidia.com/",
-     "urltitle":"http://www.mobidia.com/ (not the dashboard I built)",
-     "content":"At the beginning of this project, Mobidia had a rudimentary singlepage webapp dashboard built from vanilla javascript (and some jQuery) that actually worked pretty well, but from a code organization standard, was completely haphazard and messy. No code strucutre, global namespace pollution, very bad standards. I was brought it to basically rebuild the whole dashboard in a sane way. So using Backbone/Marionette and browserify, along with gulp and LESS, I did this following sound MVC principles. The site was a success, but the company was bought by a Chinese company, my webapp was phased out due to the buying companies preference for doing most rendering with PHP. No more single-page webapps. My contract ended early. They offered me a new spot in China, but that was a bit more than I was willing to take on, and I decided to move on to something else here in Vancouver.",
-     "images":[
-        {
-           "src":"images/work/11.1.jpg",
-           "alt":"QuickMobile Inc Image 1",
-           "ratio": "53.75%"
-        },
-        {
-           "src":"images/work/11.2.jpg",
-           "alt":"QuickMobile Inc Image 2",
-           "ratio": "53.75%"
-        },
-        {
-           "src":"images/work/11.3.jpg",
-           "alt":"QuickMobile Inc Image 3",
-            "ratio": "53.75%"
-        }
-     ]
-  },
-  {
-     "id":10,
-     "title":"QuickMobile Inc.",
-     "startdate": "August. 2013",
-     "url":"http://www.quickmobile.com/",
-     "urltitle":"http://www.quickmobile.com/ (client facing site)",
-     "content":"QuickMobile needed a significant overhaul of thier javascript best practices and codebase when I started working fulltime for this Vancouver based shop. The had an app that had been around for a while and the frontend had stagnated. From folder structures of css code to decisions about what design patterns to follow for the sites JS, major decisions and updates were required. This was the bulk of my job there -- organizing sins of the past. We built a lot of cool stuff though too,   including Backbone/Marionette/RequireJS flavoured features, and added some tool chaining using tools like bower and grunt. I helped them get some E2E tests going with Selenium along with a whole suite of unit tests too.",
-     "images":[
-        {
-           "src":"images/work/10.1.jpg",
-           "alt":"QuickMobile Inc Image 1",
-           "ratio": "52.5%"
-        },
-        {
-           "src":"images/work/10.2.jpg",
-           "alt":"QuickMobile Inc Image 2",
-           "ratio": "53.75%"
-        },
-        {
-           "src":"images/work/10.3.jpg",
-           "alt":"QuickMobile Inc Image 3",
-           "ratio": "51.24999999999999%"
-        }
-     ]
-  },
-   {
-      "id":1,
-      "title":"Tag Idea Revolution",
-     "startdate": "March. 2013",
-      "url":"http://idearevolution.ca/",
-      "urltitle":"http://idearevolution.ca/",
-      "content":"I was completely responsible for the frontend of this single page webapp project which nested several hundred different links/pages. Lot's of organization was required. I used Backbone and RequireJS to consume an API that was spit out from a handy little JSON plugin that we found for Wordpress. The project is supposed to be responsive and to a large extend it is, but a site that is supposed to adapt to fit ANY size device is pretty tricky to accomplish and you can see some of the seems showing on some pages. Still, I'm proud of this site, and it certainly walked me through the basics and more advanced sides of MVC frameworks like Backbone.",
-      "images":[
-         {
-            "src":"images/work/1.1.jpg",
-            "alt":"tag Idea Revolution Image 1",
-            "ratio": "53.75%"
-         },
-         {
-            "src":"images/work/1.2.jpg",
-            "alt":"tag Idea Revolution Image 2",
-            "ratio": "53.75%"
-         },
-         {
-            "src":"images/work/1.3.jpg",
-            "alt":"tag Idea Revolution Image 4",
-            "ratio": "53.75%"
-         },
-         {
-            "src":"images/work/1.4.jpg",
-            "alt":"tag Idea Revolution Image 4",
-            "ratio": "53.75%"
-         }
-      ]
-   },
-   {
-      "id":2,
-      "title":"Nissan/Infiniti Marketing Manager",
-      "startdate": "Oct. 2012",
-      "url":"http://www.tmsw.com/toronto/our-work-0",
-      "urltitle":"Client facing -- not accessible to public",
-      "content":"I was responsible for consuming the frontend of this java project which was kind of a mix of a single/multi-page webapp. Mostly this is jQuery and LESS with a little backbone.js. We used handlebars as out templating engine to handle our JSON responses (which were freaking huge, I remember) but this was in the days before I really knew what MVC on the frontend really was. So, there is a lot of data attrs here to find and check the status of elements and then update accordingly. Lots of form submissions, lots of slideshows, lots of twitter's bootstrap and LESS and lots and lots and lots of JSON consumption. Good stuff and a definite high point in my learning process.",
-      "images":[
-         {
-            "src":"images/work/2.1.png",
-            "alt":"Nissan/Infiniti Marketing Manager Image 1",
-            "ratio": "76.25%"
-         },
-         {
-            "src":"images/work/2.2.png",
-            "alt":"Nissan/Infiniti Marketing Manager Image 2",
-            "ratio": "91.25%"
-         },
-         {
-            "src":"images/work/2.3.png",
-            "alt":"Nissan/Infiniti Marketing Manager Image 3",
-            "ratio": "75%"
-         }
-      ]
-   },
-   {
-      "id":3,
-      "title":"Kraft Celebration Tour 2012",
-      "startdate": "May. 2012",
-      "url":"http://www.kraftcelebrationtour.ca/en/",
-      "urltitle":"Kraft Celebration Tour (2012 link no longer available)",
-      "content":"I was responsible for writing all of the css and html markup for this site for everything from forms to the projects container scaffolding. We used Python/Django which are good skills to have. I wrote a lot of the javascript on things like timers and countdown displays, comment handling, form submission validation, slideshows and more. It was the most javascript I'd ever written. It's like, 'whoa', now.",
-      "images":[
-         {
-            "src":"images/work/3.1.png",
-            "alt":"Kraft Celebration Tour 2012 Image 1",
-            "ratio": "73.75%"
-         },
-         {
-            "src":"images/work/3.2.png",
-            "alt":"Kraft Celebration Tour 2012 Image 2",
-            "ratio": "76.25%"
-         },
-         {
-            "src":"images/work/3.3.png",
-            "alt":"Kraft Celebration Tour 2012 Image 3",
-            "ratio": "76.25%"
-         }
-      ]
-   },
-   {
-      "id":4,
-      "title":"Royal Lepage Commercial",
-      "startdate": "May. 2012",
-      "url":"http://www.royallepagecommercial.com/",
-      "urltitle":"http://www.royallepagecommercial.com/",
-      "content":"I was responsible for writing all of the css and html markup for this site for everything from forms to the projects container scaffolding. As well, I worked with django to call for data to display on blogs, agent profiles, etc, etc. I wrote some of the javascript on some of the slideshows that are buried inside the site, and then helped out too with submitting data through ajax for various forms around the site. Man, I was super dumb then. Super super super.",
-      "images":[
-         {
-            "src":"images/work/4.1.png",
-            "alt":"Royal Lepage Commercial Image 1",
-            "ratio": "78.75%"
-         },
-         {
-            "src":"images/work/4.2.png",
-            "alt":"Royal Lepage Commercial Image 2",
-            "ratio": "77.5%"
-         },
-         {
-            "src":"images/work/4.3.png",
-            "alt":"Royal Lepage Commercial Image 3",
-            "ratio": "77.5%"
-         }
-      ]
-   },
-   {
-      "id":5,
-      "title":"Facebook Thinsations Sampling App",
-      "startdate": "May. 2012",
-      "url":"https://www.facebook.com/Thinsations",
-      "urltitle":"https://www.facebook.com/Thinsations (expired -- app no longer available)",
-      "content":"The first commerical project I was ever involved with. I built the css for this facebook app and learned my way around facebook's SDK. Mostly though, this was where I learned about some of the more advanced elements inside webpage styling. SMACS, LESS (style vars, extends, mixins, import options), the difference between using glyphicons and vectors, style sheet concatentation and minification, Django's pipeline. 'This styling of website thing can get way more complicated than I thought. I don't know anything at all really.' I remember thinking. Scary scaty.",
-      "images":[
-         {
-            "src":"images/work/5.1.png",
-            "alt":"Facebook Thinsations Sampling App Image 1",
-            "ratio": "76.25%"
-         },
-         {
-            "src":"images/work/5.2.png",
-            "alt":"Facebook Thinsations Sampling App Image 2",
-            "ratio": "78.75%"
-         },
-         {
-            "src":"images/work/5.3.png",
-            "alt":"Facebook Thinsations Sampling App Image 3",
-            "ratio": "75%"
-         }
-      ]
-   },
-   {
-      "id":6,
-      "title":"Langara College Projects",
-      "startdate": "January. 2011",
-      "url":"#project/6",
-      "urltitle":"Lost to the great unbacked up hard drive in the sky",
-      "content":"I went to Langara College for their interactive design and development program (which is now defunct). Langara isn't known for producing developers, but learning to code was definitely my focus when I went there. I tried to bring all of my projects back to code somehow. I knew this was what I wanted to do. So, I used the google globe project on a project about how colour choices matter. I built my own font using fontstruct's site and I launched a number of small websites for displaying it. I had a very rudementary degree of knowledge about web basics before Langara. I'd done some basic stuff with Wordpress theming and css, but I was pretty green. After Langara, my foundational knowledge was much stronger. The difference between position absolute and relative. What a script really tag is. Floats. What a var is. What ajax is (actually, I didn't know that one at all after Langara) Em vs rems vs px. It was these basic things that I honed while at Langara.",
-      "images":[
-         {
-            "src":"images/work/6.1.jpg",
-            "alt":"Langara College Projects Image 1",
-            "ratio":"38.75%"
-         },
-         {
-            "src":"images/work/6.2.jpg",
-            "alt":"Langara College Projects Image 2",
-            "ratio":"38.75%"
-         },
-         {
-            "src":"images/work/6.3.jpg",
-            "alt":"Langara College Projects Image 3",
-            "ratio":"38.75%"
-         }
-      ]
-   },
-   {
-      "id":7,
-      "title":"PWS Consulting",
-      "startdate": "May. 2011",
-      "url":"#project/7",
-      "urltitle":"Dad found work so he let this thing expire. Probably for the best.",
-      "content":"So I built this Wordpress website for my Dad. I even did the logo design. Thankfully, I don't think it exists anywhere on the internet anymore. You are looking at probably the only known photo of that site. Anywhoo, I'm going to follow the rule of 'If you have nothing good to say, don't say anything at all' about this site and just sum it up by saying that my Dad found a great consulting gig after we built this site together. I like to think I played a small part in that.",
-      "images":[
-         {
-            "src":"images/work/7.1.jpg",
-            "alt":"Paul W Strandberg Consulting",
-            "ratio": "38.75%"
-         }
-      ]
-   },
-   {
-      "id":8,
-      "title":"cameronstrandberg.com mock 2",
-      "startdate": "January. 2010",
-      "url":"#project/8",
-      "urltitle":"Well. It could go back online, if I bothered setting up a site with wordpress.",
-      "content":"The first website that I actually used my own javascript on. My first js? Shock, horror, a photo slideshow carousel. I'm sure if I read over it today, I'd hang my head in abject shame, but hey, you've got to start somewhere. The day I realized that carousels are often just tricks being played with containers, overflows, margins and widths, was the day I said to myself 'I can absolutely figure out this web development stuff. I'm smart enough, dammit, I am'.",
-      "images":[
-         {
-            "src":"images/work/8.1.png",
-            "alt":"cameronstrandberg.com mock 2 Image 1",
-            "ratio": "53.75%"
-         },
-         {
-            "src":"images/work/8.2.png",
-            "alt":"cameronstrandberg.com mock 2 Image 2",
-            "ratio": "53.75%"
-         },
-         {
-            "src":"images/work/8.3.png",
-            "alt":"cameronstrandberg.com mock 2 Image 3",
-            "ratio": "60%"
-         }
-      ]
-   },
-   {
-      "id":9,
-      "title":"cameronstrandberg.com mock 1",
-      "startdate": "January. 2008",
-      "url":"#project/9",
-      "urltitle":"It's gone and the word is a better place for it.",
-      "content":"One of the first websites I ever launched, though not the one that has my super cool iceberg logo .png photoshop work, which is now lost to history forever. So sad. Oh wordpress, I loved you so once. A prime example of the importance of taking screen shots of your work so you can laugh at it later.",
-      "images":[
-         {
-            "src":"images/work/9.1.jpg",
-            "alt":"cameronstrandberg.com mock 1 Image 1",
-            "ratio": "38.75%"
-         }
-      ]
-   }
 ]
