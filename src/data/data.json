@@ -7,6 +7,21 @@
     "images": []
   },
   {
+    "id":15,
+    "title":"Carl Data Solutions",
+    "startdate": "August. 2015",
+    "url":"https://m-staging.timeline.com/",
+    "urltitle":"http://www.timeline.com/ (requires pay for service)",
+    "content":"Although now replaced with a Medium site, I did a significant amount of work on features for the old timeline.com (I've linked to a still online staging site here). Timeline.com was an express/jade app with jQuery plugin based javascript and SASS powered stylesheets, along with a long list of gulp tasks. I fixed numerous bugs, built things like email subscription pop up modals and maintained the numerous gulp tasks that went along with the project. Timeline also had a big CMS, built with angular 1 and a host of plugins/directives from the angular ecosystem were pulled in. I did a lot of bug fixes and feature addition and maintenance to this CMS and curation tools that powered the articles. Lot's of weird angular goodness. It's all gone now though. Sad because this was a pretty big codebase that a lot of people worked very hard on, but on to bigger and better things, I suppose.",
+    "images":[
+       {
+          "src":"images/work/12.1.png",
+          "alt":"Timeline Homepage Image 1",
+          "ratio": "57.48%"
+       }
+    ]
+  }
+  {
      "id":12,
      "title":"Timeline",
      "startdate": "August. 2015",
