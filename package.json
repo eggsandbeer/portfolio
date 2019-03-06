@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^2.0.1",
     "react-scripts": "1.0.16"
   },
   "dependencies": {
@@ -20,5 +20,5 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
   },
-  "homepage": "http://cameronstrandberg.com"
+  "homepage": "https://eggsandbeer.github.io./"
 }
