@@ -14,11 +14,12 @@
     "react-dom": "^16.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "eject": "react-scripts eject"
   },
-  "homepage": "https://eggsandbeer.github.io./"
+  "homepage": "https://eggsandbeer.github.io/portfolio"
 }
