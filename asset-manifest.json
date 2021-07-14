@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.2c74f25a.chunk.css",
-    "main.js": "/myportfolio/static/js/main.4c97de7e.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.4c97de7e.chunk.js.map",
-    "runtime-main.js": "/myportfolio/static/js/runtime-main.cc2d9329.js",
-    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.cc2d9329.js.map",
-    "static/css/2.f6e24ee5.chunk.css": "/myportfolio/static/css/2.f6e24ee5.chunk.css",
-    "static/js/2.1d83267e.chunk.js": "/myportfolio/static/js/2.1d83267e.chunk.js",
-    "static/js/2.1d83267e.chunk.js.map": "/myportfolio/static/js/2.1d83267e.chunk.js.map",
-    "index.html": "/myportfolio/index.html",
-    "static/css/2.f6e24ee5.chunk.css.map": "/myportfolio/static/css/2.f6e24ee5.chunk.css.map",
-    "static/css/main.2c74f25a.chunk.css.map": "/myportfolio/static/css/main.2c74f25a.chunk.css.map",
-    "static/js/2.1d83267e.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.1d83267e.chunk.js.LICENSE.txt",
-    "static/media/Cubes.css": "/myportfolio/static/media/6.0ff44c94.png",
-    "static/media/bootstrap.css": "/myportfolio/static/media/glyphicons-halflings-regular.be810be3.woff2",
-    "static/media/App.css": "/myportfolio/static/media/main-bg.4e774eab.jpg",
-    "static/media/mainline.81fb2226.png": "/myportfolio/static/media/mainline.81fb2226.png",
-    "static/media/profile.f0c46acf.png": "/myportfolio/static/media/profile.f0c46acf.png"
+    "main.css": "/portfolio/static/css/main.1641a563.chunk.css",
+    "main.js": "/portfolio/static/js/main.7c4bfa79.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7c4bfa79.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
+    "static/css/2.44e7118d.chunk.css": "/portfolio/static/css/2.44e7118d.chunk.css",
+    "static/js/2.1d83267e.chunk.js": "/portfolio/static/js/2.1d83267e.chunk.js",
+    "static/js/2.1d83267e.chunk.js.map": "/portfolio/static/js/2.1d83267e.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.44e7118d.chunk.css.map": "/portfolio/static/css/2.44e7118d.chunk.css.map",
+    "static/css/main.1641a563.chunk.css.map": "/portfolio/static/css/main.1641a563.chunk.css.map",
+    "static/js/2.1d83267e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1d83267e.chunk.js.LICENSE.txt",
+    "static/media/Cubes.css": "/portfolio/static/media/6.0ff44c94.png",
+    "static/media/bootstrap.css": "/portfolio/static/media/glyphicons-halflings-regular.be810be3.woff2",
+    "static/media/App.css": "/portfolio/static/media/main-bg.4e774eab.jpg",
+    "static/media/mainline.81fb2226.png": "/portfolio/static/media/mainline.81fb2226.png",
+    "static/media/profile.f0c46acf.png": "/portfolio/static/media/profile.f0c46acf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc2d9329.js",
-    "static/css/2.f6e24ee5.chunk.css",
+    "static/js/runtime-main.bcd5af5a.js",
+    "static/css/2.44e7118d.chunk.css",
     "static/js/2.1d83267e.chunk.js",
-    "static/css/main.2c74f25a.chunk.css",
-    "static/js/main.4c97de7e.chunk.js"
+    "static/css/main.1641a563.chunk.css",
+    "static/js/main.7c4bfa79.chunk.js"
   ]
 }
