@@ -7,6 +7,21 @@
     "images": []
   },
   {
+    "id": 17,
+    "title": "PHSA (Provincial Health Services Authority - BC) - Canada",
+    "startdate": "March. 2018 - May 2021",
+    "url": "http://www.phsa.ca/",
+    "urltitle": "http://www.phsa.ca/ (internal app behind auth)",
+    "content": "Building out large scale app for PHSA cardiac services using Typescript, React (hooks, functional components and classes), GraphQL, Apollo, react-testing-library, Cypress, Azure and more.",
+    "images": [
+      {
+        "src": "images/work/17.1.png",
+        "alt": "PHSA - Canada",
+        "ratio": "57.48%"
+      }
+    ]
+  },
+  {
     "id": 16,
     "title": "HSBC - Canada",
     "startdate": "March. 2017",

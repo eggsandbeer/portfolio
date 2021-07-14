@@ -7,7 +7,6 @@
   border-top: 1px solid white;
 }
 #SideBar li {
-  height: 61px;
   display: block;
   position: relative;
   list-style: none;
@@ -17,6 +16,9 @@
   cursor: pointer;
   z-index: 100;
   padding-top: 5px;
+}
+#SideBar li p {
+  font-size: 1.2em;
 }
 #SideBar li:hover img {
   /*right: 0;*/

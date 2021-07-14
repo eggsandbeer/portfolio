@@ -2,7 +2,7 @@
   width: 100%;
 }
 .MainArea p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 0 0 5px 0;
 }
 .MainArea a {
@@ -23,7 +23,7 @@
   left: 0;
 }
 .MainArea h3.welcome {
-  font-size: 22vw;
+  font-size: 20vw;
   line-height: 0.8em;
   margin: 0;
 }
