@@ -12,7 +12,6 @@
   list-style: none;
   padding-left: 5px;
   border-bottom: 1px solid white;
-  vertical-align: middle;
   cursor: pointer;
   z-index: 100;
   padding-top: 5px;
@@ -20,25 +19,13 @@
 #SideBar li p {
   font-size: 1.2em;
 }
-#SideBar li:hover img {
-  /*right: 0;*/
-  /*transition: right 0.2s;*/
-}
 #SideBar li img {
   position: absolute;
   right: -60px;
   top: 0;
   z-index: 99;
   pointer-events: none;
-  /*transition: right 0.2s;*/
 }
 #SideBar .ActiveSideBarItem {
   border-left: 4px solid #c83e2c;
-}
-#SideBar .ActiveSideBarItem img {
-  /*right: 0;*/
-}
-#SideBar .ActiveSideBarItem img.bw {
-  /*opacity: 0;*/
-  /*transition: opacity 0.2s;*/
 }
