@@ -44,7 +44,6 @@ class App extends Component {
                 <ul className="contact">
                   <li><a href="mailto:cameron.strandberg@gmail.com">Email</a></li>
                   <li><a href="http://www.linkedin.com/pub/cameron-strandberg/6/a90/603">LinkedIn</a></li>
-                  <li><a href="https://twitter.com/eggsandbeer">Twitter</a></li>
                   <li><a href="https://github.com/eggsandbeer">Github</a></li>
                 </ul>
               </div>
